@@ -28,7 +28,7 @@ public class Sat {
         if (minute==-1) { minute=59; sati--; }
         if (sati==-1) sati=23;
     }
-    
+
     private void pomjeriZa(int pomak) {
         if (pomak>0) for (int i=0; i<pomak; i++) sljedeci();
         else for (int i=0; i<-pomak; i++) prethodni();
